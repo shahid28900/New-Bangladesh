@@ -8,27 +8,32 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: #f5f5f5; */
 }
-
+body{
+    background-color: #f5f5f5;
+}
 .header {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 15px; 
+    padding: 15px;
+    color: #F5F5F5;
 }
-/* .header h1{
+
+.header h1 {
     margin: 0;
     font-size: 24px;
-} */
-.sign-btn{
+    color: black;
+}
+
+.sign-btn {
     padding: 10px 20px;
-    background-color: #F5F5F5;
-    border: 1px solid rgb(0, 106, 80);
+    /* background-color: #F5F5F5; */
+    border: 2px solid #006A50;
     border-radius: 8px;
-    cursor: pointer;
     border: none;
 }
+
 .banner {
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -69,15 +74,77 @@ h2 {
     align-items: center;
     gap: 38;
     padding: 10px 26px 10px 26px;
-   border: none;
+    border: none;
 }
 
 .continar-2 {
     text-align: center;
 }
 
-.img{
+.img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+/* Card Section Start */
+
+.card {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+    gap: 32;
+    padding: 0px;
+}
+
+.card h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-section1 {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-sizing: border-box;
+    gap: 7px;
+}
+
+.card-section1 img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* .card-img{
+align-items: start;
+} */
+.card-section1 h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-section1 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
