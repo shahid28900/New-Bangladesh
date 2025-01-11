@@ -9,9 +9,11 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #f5f5f5;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -90,9 +92,9 @@ h2 {
 /* Card Section Start */
 
 .card {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
     gap: 32;
     padding: 0px;
 }
@@ -118,6 +120,13 @@ h2 {
     gap: 7px;
 }
 
+.img-card {
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;
+}
+
 .card-section1 img {
     width: 50px;
     height: 50px;
@@ -141,6 +150,152 @@ align-items: start;
 
 .card-section1 p {
     color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* vision-section start */
+
+.vision-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    width: 970px;
+}
+
+.full-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vision-section h1 {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vision-section p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.color-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.color-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.color-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.card-1 h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* margin: 10px; */
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.card-1 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* .btn-left{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+} */
+.card-btn {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    margin-left: 0;
+}
+
+/* Quote Section Start */
+.quote-box {
+    position: relative;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* .quote-box::before{
+    content: "";
+} */
+.quote-text {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quote-author {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quote-title {
+    color: rgba(14, 14, 14, 0.6);
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 400;
